@@ -1,0 +1,25 @@
+{
+  "name": "PayeezySDK",
+  "version": "2.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://developer.payeezy.com/",
+  "authors": {
+    "Payeezy": "support@payeezy.com"
+  },
+  "summary": "The Payeezy iOS SDK support secure In-App payments via Apple's Apple Pay technology.",
+  "source": {
+    "git": "https://github.com/payeezy/payeezy_ios.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "sdk/**/PayeezySDK.{h,m}",
+    "sdk/**/SBJson*.*"
+  ]
+}
