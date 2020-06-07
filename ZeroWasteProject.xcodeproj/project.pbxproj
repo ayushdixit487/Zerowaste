@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046D62B7205AC6580078E9D9 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D62B6205AC6580078E9D9 /* ApiHandler.swift */; };
+		046D62B9205ACC6D0078E9D9 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D62B8205ACC6D0078E9D9 /* SpinnerView.swift */; };
+		0497EB9F20EDD30D00EAC97D /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497EB9E20EDD30D00EAC97D /* StripeClient.swift */; };
+		0497EBA120EDD36000EAC97D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497EBA020EDD36000EAC97D /* Constants.swift */; };
+		0497EBA320EE4F4D00EAC97D /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497EBA220EE4F4D00EAC97D /* protocols.swift */; };
+		04A17F6F20B2AA3B00E2B1D7 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A17F6E20B2AA3B00E2B1D7 /* ServicesVC.swift */; };
+		04CAFD9420468E89007385E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFD9320468E89007385E8 /* AppDelegate.swift */; };
+		04CAFD9620468E89007385E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFD9520468E89007385E8 /* ViewController.swift */; };
+		04CAFD9920468E89007385E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFD9720468E89007385E8 /* Main.storyboard */; };
+		04CAFD9C20468E89007385E8 /* ZeroWasteProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFD9A20468E89007385E8 /* ZeroWasteProject.xcdatamodeld */; };
+		04CAFD9E20468E8A007385E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFD9D20468E8A007385E8 /* Assets.xcassets */; };
+		04CAFDA120468E8A007385E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFD9F20468E8A007385E8 /* LaunchScreen.storyboard */; };
+		04CAFDB32046AAF0007385E8 /* GoogleFonts-OpenSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDA92046AADB007385E8 /* GoogleFonts-OpenSansBold.ttf */; };
+		04CAFDB42046AAF0007385E8 /* GoogleFonts-OpenSansBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDAA2046AADB007385E8 /* GoogleFonts-OpenSansBoldItalic.ttf */; };
+		04CAFDB52046AAF0007385E8 /* GoogleFonts-OpenSansExtrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDAB2046AADB007385E8 /* GoogleFonts-OpenSansExtrabold.ttf */; };
+		04CAFDB62046AAF0007385E8 /* GoogleFonts-OpenSansExtraboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDAC2046AADB007385E8 /* GoogleFonts-OpenSansExtraboldItalic.ttf */; };
+		04CAFDB72046AAF0007385E8 /* GoogleFonts-OpenSansItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDAD2046AADB007385E8 /* GoogleFonts-OpenSansItalic.ttf */; };
+		04CAFDB82046AAF0007385E8 /* GoogleFonts-OpenSansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDAE2046AADB007385E8 /* GoogleFonts-OpenSansLight.ttf */; };
+		04CAFDB92046AAF0007385E8 /* GoogleFonts-OpenSansLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDAF2046AADB007385E8 /* GoogleFonts-OpenSansLightItalic.ttf */; };
+		04CAFDBA2046AAF0007385E8 /* GoogleFonts-OpenSansRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDB02046AADB007385E8 /* GoogleFonts-OpenSansRegular.ttf */; };
+		04CAFDBB2046AAF0007385E8 /* GoogleFonts-OpenSansSemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDB12046AADB007385E8 /* GoogleFonts-OpenSansSemibold.ttf */; };
+		04CAFDBC2046AAF0007385E8 /* GoogleFonts-OpenSansSemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04CAFDB22046AADB007385E8 /* GoogleFonts-OpenSansSemiboldItalic.ttf */; };
+		04CAFDBE2046B3D6007385E8 /* GlossaryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFDBD2046B3D6007385E8 /* GlossaryVc.swift */; };
+		04CAFDC02046B4FA007385E8 /* EXTENSION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFDBF2046B4FA007385E8 /* EXTENSION.swift */; };
+		04CAFDC22046CF4F007385E8 /* ServiceRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFDC12046CF4F007385E8 /* ServiceRequestVC.swift */; };
+		04CAFDC42046CFC1007385E8 /* servicerqCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFDC32046CFC1007385E8 /* servicerqCell.swift */; };
+		04CAFDC62046DFFF007385E8 /* WasteMngmntVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFDC52046DFFF007385E8 /* WasteMngmntVC.swift */; };
+		04CAFDC82046E37B007385E8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAFDC72046E37B007385E8 /* TabBar.swift */; };
+		04F6E35620A04EF0009BBDAD /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F6E35520A04EF0009BBDAD /* PaymentVC.swift */; };
+		182E755A204D0EAA008FA435 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E7559204D0EAA008FA435 /* ContactUsVC.swift */; };
+		1840D14020516E85001DC92A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840D13F20516E85001DC92A /* MobileCoreServices.framework */; };
+		1840D14220516E91001DC92A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1840D14120516E91001DC92A /* SystemConfiguration.framework */; };
+		1848C66A204A71BB00A5B7B9 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848C669204A71BB00A5B7B9 /* MonthYearPickerView.swift */; };
+		1848C66C204A71C900A5B7B9 /* PayScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848C66B204A71C900A5B7B9 /* PayScreenVC.swift */; };
+		18DFA9AE204E6787001A4CA1 /* Payeezy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA9AD204E6787001A4CA1 /* Payeezy.swift */; };
+		18DFA9B1204E7D1E001A4CA1 /* header2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DFA9B0204E7D1E001A4CA1 /* header2.m */; };
+		18E5914B20511E44005B9EF9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5914A20511E44005B9EF9 /* CFNetwork.framework */; };
+		18EB550C204EAEC0009150F1 /* COLORS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB550B204EAEC0009150F1 /* COLORS.swift */; };
+		18EB5510204EB7F0009150F1 /* HeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB550F204EB7F0009150F1 /* HeaderVC.swift */; };
+		24DA86FFEFDA58AF285BF353 /* Pods_ZeroWasteProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5B0F128F7ED4FDB431D0D3 /* Pods_ZeroWasteProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046D62B6205AC6580078E9D9 /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		046D62B8205ACC6D0078E9D9 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		0497EB9E20EDD30D00EAC97D /* StripeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
+		0497EBA020EDD36000EAC97D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0497EBA220EE4F4D00EAC97D /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		04A17F6E20B2AA3B00E2B1D7 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		04CAFD9020468E89007385E8 /* ZeroWasteProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroWasteProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CAFD9320468E89007385E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CAFD9520468E89007385E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CAFD9820468E89007385E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CAFD9B20468E89007385E8 /* ZeroWasteProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZeroWasteProject.xcdatamodel; sourceTree = "<group>"; };
+		04CAFD9D20468E8A007385E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CAFDA020468E8A007385E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CAFDA220468E8A007385E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CAFDA92046AADB007385E8 /* GoogleFonts-OpenSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansBold.ttf"; sourceTree = "<group>"; };
+		04CAFDAA2046AADB007385E8 /* GoogleFonts-OpenSansBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansBoldItalic.ttf"; sourceTree = "<group>"; };
+		04CAFDAB2046AADB007385E8 /* GoogleFonts-OpenSansExtrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansExtrabold.ttf"; sourceTree = "<group>"; };
+		04CAFDAC2046AADB007385E8 /* GoogleFonts-OpenSansExtraboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansExtraboldItalic.ttf"; sourceTree = "<group>"; };
+		04CAFDAD2046AADB007385E8 /* GoogleFonts-OpenSansItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansItalic.ttf"; sourceTree = "<group>"; };
+		04CAFDAE2046AADB007385E8 /* GoogleFonts-OpenSansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansLight.ttf"; sourceTree = "<group>"; };
+		04CAFDAF2046AADB007385E8 /* GoogleFonts-OpenSansLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansLightItalic.ttf"; sourceTree = "<group>"; };
+		04CAFDB02046AADB007385E8 /* GoogleFonts-OpenSansRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansRegular.ttf"; sourceTree = "<group>"; };
+		04CAFDB12046AADB007385E8 /* GoogleFonts-OpenSansSemibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansSemibold.ttf"; sourceTree = "<group>"; };
+		04CAFDB22046AADB007385E8 /* GoogleFonts-OpenSansSemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoogleFonts-OpenSansSemiboldItalic.ttf"; sourceTree = "<group>"; };
+		04CAFDBD2046B3D6007385E8 /* GlossaryVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossaryVc.swift; sourceTree = "<group>"; };
+		04CAFDBF2046B4FA007385E8 /* EXTENSION.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EXTENSION.swift; sourceTree = "<group>"; };
+		04CAFDC12046CF4F007385E8 /* ServiceRequestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequestVC.swift; sourceTree = "<group>"; };
+		04CAFDC32046CFC1007385E8 /* servicerqCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = servicerqCell.swift; sourceTree = "<group>"; };
+		04CAFDC52046DFFF007385E8 /* WasteMngmntVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WasteMngmntVC.swift; sourceTree = "<group>"; };
+		04CAFDC72046E37B007385E8 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		04F6E35520A04EF0009BBDAD /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		182E7559204D0EAA008FA435 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		1840D13F20516E85001DC92A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1840D14120516E91001DC92A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1848C669204A71BB00A5B7B9 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		1848C66B204A71C900A5B7B9 /* PayScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayScreenVC.swift; sourceTree = "<group>"; };
+		18DFA9AD204E6787001A4CA1 /* Payeezy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payeezy.swift; sourceTree = "<group>"; };
+		18DFA9AF204E7D1D001A4CA1 /* ZeroWasteProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZeroWasteProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		18DFA9B0204E7D1E001A4CA1 /* header2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = header2.m; sourceTree = "<group>"; };
+		18E59147205100E7005B9EF9 /* ZeroWasteProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZeroWasteProject.entitlements; sourceTree = "<group>"; };
+		18E5914A20511E44005B9EF9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18EB550B204EAEC0009150F1 /* COLORS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLORS.swift; sourceTree = "<group>"; };
+		18EB550F204EB7F0009150F1 /* HeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderVC.swift; sourceTree = "<group>"; };
+		5E2B0455E9270A275BABEF40 /* Pods-ZeroWasteProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZeroWasteProject/Pods-ZeroWasteProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6A4337C3558B533A29B17D65 /* Pods-ZeroWasteProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeroWasteProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZeroWasteProject/Pods-ZeroWasteProject.release.xcconfig"; sourceTree = "<group>"; };
+		AD5B0F128F7ED4FDB431D0D3 /* Pods_ZeroWasteProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeroWasteProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CAFD8D20468E89007385E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1840D14220516E91001DC92A /* SystemConfiguration.framework in Frameworks */,
+				1840D14020516E85001DC92A /* MobileCoreServices.framework in Frameworks */,
+				18E5914B20511E44005B9EF9 /* CFNetwork.framework in Frameworks */,
+				24DA86FFEFDA58AF285BF353 /* Pods_ZeroWasteProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046D62B5205AC6370078E9D9 /* APi Handller */ = {
+			isa = PBXGroup;
+			children = (
+				046D62B6205AC6580078E9D9 /* ApiHandler.swift */,
+			);
+			name = "APi Handller";
+			sourceTree = "<group>";
+		};
+		04CAFD8720468E89007385E8 = {
+			isa = PBXGroup;
+			children = (
+				04CAFD9220468E89007385E8 /* ZeroWasteProject */,
+				04CAFD9120468E89007385E8 /* Products */,
+				B8BA4431105EF7C1112551B3 /* Pods */,
+				5D15D88A8BA784D26A00E7B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CAFD9120468E89007385E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFD9020468E89007385E8 /* ZeroWasteProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CAFD9220468E89007385E8 /* ZeroWasteProject */ = {
+			isa = PBXGroup;
+			children = (
+				046D62B5205AC6370078E9D9 /* APi Handller */,
+				18E59147205100E7005B9EF9 /* ZeroWasteProject.entitlements */,
+				18DFA9B2204EA40A001A4CA1 /* AppDelegate */,
+				18EB5509204EADF1009150F1 /* ViewControllers */,
+				04CAFDA82046AAB4007385E8 /* Fonts */,
+				18D84D9B204FDFF800BE2A6F /* HeaderFiles */,
+				18D84D9A204FDFDF00BE2A6F /* Others */,
+				18D84D97204FDFA600BE2A6F /* Cells */,
+				18EB550A204EAE5F009150F1 /* extensionFiles */,
+				18DFA9B3204EA421001A4CA1 /* Storyboards */,
+			);
+			path = ZeroWasteProject;
+			sourceTree = "<group>";
+		};
+		04CAFDA82046AAB4007385E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFDA92046AADB007385E8 /* GoogleFonts-OpenSansBold.ttf */,
+				04CAFDAA2046AADB007385E8 /* GoogleFonts-OpenSansBoldItalic.ttf */,
+				04CAFDAB2046AADB007385E8 /* GoogleFonts-OpenSansExtrabold.ttf */,
+				04CAFDAC2046AADB007385E8 /* GoogleFonts-OpenSansExtraboldItalic.ttf */,
+				04CAFDAD2046AADB007385E8 /* GoogleFonts-OpenSansItalic.ttf */,
+				04CAFDAE2046AADB007385E8 /* GoogleFonts-OpenSansLight.ttf */,
+				04CAFDAF2046AADB007385E8 /* GoogleFonts-OpenSansLightItalic.ttf */,
+				04CAFDB02046AADB007385E8 /* GoogleFonts-OpenSansRegular.ttf */,
+				04CAFDB12046AADB007385E8 /* GoogleFonts-OpenSansSemibold.ttf */,
+				04CAFDB22046AADB007385E8 /* GoogleFonts-OpenSansSemiboldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		18D84D97204FDFA600BE2A6F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFDC32046CFC1007385E8 /* servicerqCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		18D84D9A204FDFDF00BE2A6F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFD9D20468E8A007385E8 /* Assets.xcassets */,
+				04CAFD9A20468E89007385E8 /* ZeroWasteProject.xcdatamodeld */,
+				04CAFDA220468E8A007385E8 /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		18D84D9B204FDFF800BE2A6F /* HeaderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18DFA9B0204E7D1E001A4CA1 /* header2.m */,
+				18DFA9AF204E7D1D001A4CA1 /* ZeroWasteProject-Bridging-Header.h */,
+			);
+			name = HeaderFiles;
+			sourceTree = "<group>";
+		};
+		18DFA9B2204EA40A001A4CA1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFD9320468E89007385E8 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		18DFA9B3204EA421001A4CA1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFD9F20468E8A007385E8 /* LaunchScreen.storyboard */,
+				04CAFD9720468E89007385E8 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		18EB5509204EADF1009150F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CAFD9520468E89007385E8 /* ViewController.swift */,
+				18EB550F204EB7F0009150F1 /* HeaderVC.swift */,
+				0497EBA020EDD36000EAC97D /* Constants.swift */,
+				0497EB9E20EDD30D00EAC97D /* StripeClient.swift */,
+				04CAFDBD2046B3D6007385E8 /* GlossaryVc.swift */,
+				182E7559204D0EAA008FA435 /* ContactUsVC.swift */,
+				04CAFDC12046CF4F007385E8 /* ServiceRequestVC.swift */,
+				04CAFDC52046DFFF007385E8 /* WasteMngmntVC.swift */,
+				1848C66B204A71C900A5B7B9 /* PayScreenVC.swift */,
+				0497EBA220EE4F4D00EAC97D /* protocols.swift */,
+				04CAFDC72046E37B007385E8 /* TabBar.swift */,
+				1848C669204A71BB00A5B7B9 /* MonthYearPickerView.swift */,
+				04F6E35520A04EF0009BBDAD /* PaymentVC.swift */,
+				04A17F6E20B2AA3B00E2B1D7 /* ServicesVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18EB550A204EAE5F009150F1 /* extensionFiles */ = {
+			isa = PBXGroup;
+			children = (
+				046D62B8205ACC6D0078E9D9 /* SpinnerView.swift */,
+				18DFA9AD204E6787001A4CA1 /* Payeezy.swift */,
+				04CAFDBF2046B4FA007385E8 /* EXTENSION.swift */,
+				18EB550B204EAEC0009150F1 /* COLORS.swift */,
+			);
+			name = extensionFiles;
+			sourceTree = "<group>";
+		};
+		5D15D88A8BA784D26A00E7B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1840D14120516E91001DC92A /* SystemConfiguration.framework */,
+				1840D13F20516E85001DC92A /* MobileCoreServices.framework */,
+				18E5914A20511E44005B9EF9 /* CFNetwork.framework */,
+				AD5B0F128F7ED4FDB431D0D3 /* Pods_ZeroWasteProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8BA4431105EF7C1112551B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B0455E9270A275BABEF40 /* Pods-ZeroWasteProject.debug.xcconfig */,
+				6A4337C3558B533A29B17D65 /* Pods-ZeroWasteProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CAFD8F20468E89007385E8 /* ZeroWasteProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CAFDA520468E8A007385E8 /* Build configuration list for PBXNativeTarget "ZeroWasteProject" */;
+			buildPhases = (
+				50776D12BFE17C68DB70C439 /* [CP] Check Pods Manifest.lock */,
+				04CAFD8C20468E89007385E8 /* Sources */,
+				04CAFD8D20468E89007385E8 /* Frameworks */,
+				04CAFD8E20468E89007385E8 /* Resources */,
+				E13A75CF54F5857687A9AC92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeroWasteProject;
+			productName = ZeroWasteProject;
+			productReference = 04CAFD9020468E89007385E8 /* ZeroWasteProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CAFD8820468E89007385E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					04CAFD8F20468E89007385E8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JN8K3J36DK;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 04CAFD8B20468E89007385E8 /* Build configuration list for PBXProject "ZeroWasteProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CAFD8720468E89007385E8;
+			productRefGroup = 04CAFD9120468E89007385E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CAFD8F20468E89007385E8 /* ZeroWasteProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CAFD8E20468E89007385E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CAFDB32046AAF0007385E8 /* GoogleFonts-OpenSansBold.ttf in Resources */,
+				04CAFDB42046AAF0007385E8 /* GoogleFonts-OpenSansBoldItalic.ttf in Resources */,
+				04CAFDB52046AAF0007385E8 /* GoogleFonts-OpenSansExtrabold.ttf in Resources */,
+				04CAFDB62046AAF0007385E8 /* GoogleFonts-OpenSansExtraboldItalic.ttf in Resources */,
+				04CAFDB72046AAF0007385E8 /* GoogleFonts-OpenSansItalic.ttf in Resources */,
+				04CAFDB82046AAF0007385E8 /* GoogleFonts-OpenSansLight.ttf in Resources */,
+				04CAFDB92046AAF0007385E8 /* GoogleFonts-OpenSansLightItalic.ttf in Resources */,
+				04CAFDBA2046AAF0007385E8 /* GoogleFonts-OpenSansRegular.ttf in Resources */,
+				04CAFDBB2046AAF0007385E8 /* GoogleFonts-OpenSansSemibold.ttf in Resources */,
+				04CAFDBC2046AAF0007385E8 /* GoogleFonts-OpenSansSemiboldItalic.ttf in Resources */,
+				04CAFDA120468E8A007385E8 /* LaunchScreen.storyboard in Resources */,
+				04CAFD9E20468E8A007385E8 /* Assets.xcassets in Resources */,
+				04CAFD9920468E89007385E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50776D12BFE17C68DB70C439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeroWasteProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E13A75CF54F5857687A9AC92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZeroWasteProject/Pods-ZeroWasteProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PayeezySDK/PayeezySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/skpsmtpmessage/skpsmtpmessage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayeezySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/skpsmtpmessage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZeroWasteProject/Pods-ZeroWasteProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CAFD8C20468E89007385E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0497EBA320EE4F4D00EAC97D /* protocols.swift in Sources */,
+				046D62B7205AC6580078E9D9 /* ApiHandler.swift in Sources */,
+				0497EBA120EDD36000EAC97D /* Constants.swift in Sources */,
+				04CAFDC82046E37B007385E8 /* TabBar.swift in Sources */,
+				04CAFDBE2046B3D6007385E8 /* GlossaryVc.swift in Sources */,
+				04CAFD9C20468E89007385E8 /* ZeroWasteProject.xcdatamodeld in Sources */,
+				0497EB9F20EDD30D00EAC97D /* StripeClient.swift in Sources */,
+				04CAFD9620468E89007385E8 /* ViewController.swift in Sources */,
+				04F6E35620A04EF0009BBDAD /* PaymentVC.swift in Sources */,
+				18DFA9AE204E6787001A4CA1 /* Payeezy.swift in Sources */,
+				18EB550C204EAEC0009150F1 /* COLORS.swift in Sources */,
+				04CAFDC02046B4FA007385E8 /* EXTENSION.swift in Sources */,
+				182E755A204D0EAA008FA435 /* ContactUsVC.swift in Sources */,
+				04CAFDC62046DFFF007385E8 /* WasteMngmntVC.swift in Sources */,
+				046D62B9205ACC6D0078E9D9 /* SpinnerView.swift in Sources */,
+				1848C66A204A71BB00A5B7B9 /* MonthYearPickerView.swift in Sources */,
+				04CAFDC22046CF4F007385E8 /* ServiceRequestVC.swift in Sources */,
+				18EB5510204EB7F0009150F1 /* HeaderVC.swift in Sources */,
+				04CAFDC42046CFC1007385E8 /* servicerqCell.swift in Sources */,
+				04A17F6F20B2AA3B00E2B1D7 /* ServicesVC.swift in Sources */,
+				1848C66C204A71C900A5B7B9 /* PayScreenVC.swift in Sources */,
+				04CAFD9420468E89007385E8 /* AppDelegate.swift in Sources */,
+				18DFA9B1204E7D1E001A4CA1 /* header2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04CAFD9720468E89007385E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CAFD9820468E89007385E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CAFD9F20468E8A007385E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CAFDA020468E8A007385E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CAFDA320468E8A007385E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CAFDA420468E8A007385E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CAFDA620468E8A007385E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2B0455E9270A275BABEF40 /* Pods-ZeroWasteProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN8K3J36DK;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = ZeroWasteProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljwinc.ZeroWasteService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZeroWasteProject/ZeroWasteProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04CAFDA720468E8A007385E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4337C3558B533A29B17D65 /* Pods-ZeroWasteProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN8K3J36DK;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = ZeroWasteProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljwinc.ZeroWasteService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZeroWasteProject/ZeroWasteProject-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CAFD8B20468E89007385E8 /* Build configuration list for PBXProject "ZeroWasteProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CAFDA320468E8A007385E8 /* Debug */,
+				04CAFDA420468E8A007385E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CAFDA520468E8A007385E8 /* Build configuration list for PBXNativeTarget "ZeroWasteProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CAFDA620468E8A007385E8 /* Debug */,
+				04CAFDA720468E8A007385E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04CAFD9A20468E89007385E8 /* ZeroWasteProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04CAFD9B20468E89007385E8 /* ZeroWasteProject.xcdatamodel */,
+			);
+			currentVersion = 04CAFD9B20468E89007385E8 /* ZeroWasteProject.xcdatamodel */;
+			path = ZeroWasteProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04CAFD8820468E89007385E8 /* Project object */;
+}
